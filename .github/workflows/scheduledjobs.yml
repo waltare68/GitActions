@@ -2,7 +2,7 @@ name: Schedule Fetch
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Run every 6 hours
+    - cron: '*/2 * * * *'  # Run every two minutes #'0 */6 * * *'  # Run every 6 hours
 
 jobs:
   fetch:
