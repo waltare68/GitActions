@@ -1,9 +1,10 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
+//const fetch = require('node-fetch');
 
 async function sendData() {
   const endpoint = 'http://localhost:3000/api/cronservice';
   const response = await fetch(endpoint, {
-    method: 'POST', // or 'GET', 'PUT', etc., depending on your API
+    method: 'GET', // or 'GET', 'PUT', etc., depending on your API
     headers: {
       'Content-Type': 'application/json',
       // Add any other headers your API requires
