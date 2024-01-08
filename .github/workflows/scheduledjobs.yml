@@ -3,7 +3,7 @@ name: Schedule Fetch
 on:
   schedule:
     - cron: '*/2 * * * *'  # Run every two minutes #'0 */6 * * *'  # Run every 6 hours
-    workflow_dispatch:
+    workflow_dispatch: #
 
 jobs:
   fetch:
