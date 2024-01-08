@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 //const fetch = require('node-fetch');
 
 async function sendData() {
-  const endpoint = 'http://localhost:3000/api/cronservice';
+  const endpoint = 'https://sports-f25x.vercel.app/api/cronservice';
   const response = await fetch(endpoint, {
     method: 'GET', // or 'GET', 'PUT', etc., depending on your API
     headers: {
